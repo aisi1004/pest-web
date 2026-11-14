@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "_doc": "광고는 ads 배열에 넣고 빼면 됩니다(앱 업데이트 불필요). slot: home | list_bottom | bug_list | bug_detail | farm. crops 를 적으면 내 작물이나 보고 있는 작물이 맞을 때만 보입니다. 경보·설정 화면에는 광고 자리가 없습니다. 아래 sample 은 enabled:false 라 보이지 않습니다.",
+  "ads": [
+    {
+      "id": "sample",
+      "enabled": false,
+      "slot": "bug_detail",
+      "image": "https://example.com/ad-720x200.webp",
+      "title": "샘플 광고",
+      "link": "https://example.com",
+      "start": "2026-11-01",
+      "end": "2026-11-30",
+      "crops": ["고추"],
+      "weight": 1
+    }
+  ]
+}
